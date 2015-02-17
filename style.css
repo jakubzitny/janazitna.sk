@@ -1,0 +1,63 @@
+body { height: 100%; min-height: 100%; background: #fff; -webkit-font-smoothing: antialiased; }
+html { height: 100%; min-height: 100%; }
+
+body, tr, td, body, ul, li, textarea, blockquote,
+h1, h2, h3, h4, h5, h6,
+p, img, form, table, a, a:focus, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	outline: 0;
+}
+div, td, body, li, input, textarea {
+	color: #999;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: default;
+	text-align: left;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+p, h1, h2, h3, h4, h5, h6, table, ul, ol, blockquote { margin-bottom: 25px; }
+li { margin-left: 25px; }
+
+.noborder { border: 0; }
+div.cleaner {
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+a { text-decoration: none; color: #999; border-bottom: 1px dotted #999; }
+a:hover { text-decoration: none; color: #fff; border-bottom: 1px dotted #fff; }
+
+img { display: block; max-width: 100%; height: auto; }
+input:focus { outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #71a42f;
+}
+
+h2 { font-size: 26px; letter-spacing: 1px; }
+
+div.full { width: 100%; height: 100%; overflow: hidden; }
+div.wrap { display: block;	width: 100%; height: 100%; list-style: none; margin: 0; padding: 0; }
+div.content { display: block; margin: 0; padding: 0; position: relative; width: 100% !important; height: 100% !important;
+	-webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important;
+	background-size: cover !important;
+}
+div.side div.black { width: 550px; height: 100%; overflow: auto; background: rgba(0,0,0,0.9); }
+div.side div.center_wrap { height: 50%; }
+div.side div.wrap { width: 400px; height: 580px; margin: 0 auto; margin-top: -290px; }
+div.side h2 { color: #cda828; font-family: 'Questrial', serif; font-weight: 400; font-size: 23px; letter-spacing: 0px;
+	text-decoration: none; line-height: 1; }
+div.side p { font-family: 'Playfair Display', serif; color: #999; font-size: 16px; }
+.pad { padding-left: 20px; margin-bottom: 30px; }
+.pad table { table-layout: fixed; }
+.pad table td:nth-child(even) { overflow: hidden; width: 50px !important; }
+.pad table td:first-child { overflow: hidden; width: 100px ; }
