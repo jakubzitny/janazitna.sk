@@ -54,9 +54,9 @@ div.content { display: block; margin: 0; padding: 0; position: relative; width: 
 div.side div.black { width: 550px; height: 100%; overflow: auto; background: rgba(0,0,0,0.9); }
 div.side div.center_wrap { height: 50%; }
 div.side div.wrap { width: 400px; height: 580px; margin: 0 auto; margin-top: -290px; }
-div.side h2 { color: #cda828; font-family: 'Questrial', serif; font-weight: 400; font-size: 23px; letter-spacing: 0px;
+div.side h1 { color: #cda828; font-family: 'Questrial', serif; font-weight: 400; font-size: 23px; letter-spacing: 0px;
 	text-decoration: none; line-height: 1; }
-div.side p { font-family: 'Playfair Display', serif; color: #999; font-size: 16px; }
+div.side p { font-family: 'HelveticaNeue-Light', serif; color: #999; font-size: 16px; }
 .pad { padding-left: 20px; margin-bottom: 30px; }
 .pad table { table-layout: fixed; }
 .pad table td:nth-child(even) { overflow: hidden; width: 50px !important; }
