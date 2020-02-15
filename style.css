@@ -61,3 +61,14 @@ div.side p { font-family: 'HelveticaNeue-Light', serif; color: #999; font-size: 
 .pad table { table-layout: fixed; }
 .pad table td:nth-child(even) { overflow: hidden; width: 50px !important; }
 .pad table td:first-child { overflow: hidden; width: 100px ; }
+
+.bg {
+  background: url(back.png) center center;
+}
+
+@media only screen and (max-device-width: 650px) {
+  .bg {
+    background: none;
+  }
+  div.side div.black { width: 100%; }
+}
