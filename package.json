@@ -1,0 +1,17 @@
+{
+  "name": "janazitna.sk",
+  "homepage": "https://janazitna.sk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/jakubzitny/janazitna.git"
+  },
+  "author": "Jakub Žitný <jakubzitny@avocode.com> (https://github.com/jakubzitny)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/jakubzitny/janazitna#readme"
+}
