@@ -72,3 +72,11 @@ div.side p { font-family: 'HelveticaNeue-Light', serif; color: #999; font-size: 
   }
   div.side div.black { width: 100%; }
 }
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .bg {
+    background-image: url(back@2x.png);
+  }
+}
